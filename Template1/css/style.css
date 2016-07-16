@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 .clearFix{
 	clear: both;
 	margin:0;
@@ -8,11 +11,9 @@ html, body{
 	font-family: Calibri;
 	margin: 0px;
 }
-
 #mainWraper{
 	width: 100%;
 	height: auto;
-	background-color: lightgray;
 }
 #header{
 	width: 100%;
@@ -120,4 +121,66 @@ html, body{
 	font-size: 1.6em;
 	font-weight: bold;
 	padding: 5px 15px;
+}
+
+
+.firstContent{
+	padding-right: 50px;
+	padding-left: 50px;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+.innerFour{
+	width: 23%;
+	margin-left: 20px;
+	height: auto;
+	display: inline-block;
+	border: 1px solid black;
+	background-color: #128ef5;
+	text-align: center;
+	color: white;
+	font-size: 1.1em;
+	padding: 0px 20px;
+}
+.innerFour img{
+	padding-top: 15px;
+}
+.innerFour h1{
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.secondContent{
+	width: 100%;
+	height: auto;
+	padding-right: 27px;
+	padding-left: 50px;
+}
+
+.innerTwo{
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 350px;
+	width: 47%;
+	margin-right: 0px;
+	border: 1px solid black;
+	display: inline-block;
+}
+.thirdContent{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	padding-right: 27px;
+	padding-left: 70px;
+}
+.littleFour{
+	
+	width: 23%;
+	margin-right: 20px;
+	height: 400px;
+	border: 1px solid black;
+	display: inline-block;
 }
