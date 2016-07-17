@@ -27,6 +27,18 @@
 	border: 1px solid #1f76bd;
 	margin: 0 auto;
 }
+.hr3{
+	width: 300px;
+	border: 1px solid #1f76bd;
+	margin-left: 0px;
+}
+.hr4{
+	width: 100px;
+	border: 1px solid #1f76bd;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
 .borderColor{
 	border-color: white;
 }
@@ -219,7 +231,7 @@ html, body{
 	padding-right: 27px;
 	padding-left: 50px;
 }
-.innerTwo{
+.innerTwo, .secondInnerTwo{
 	margin-top: 20px;
 	margin-left: 20px;
 	height: 650px;
@@ -362,4 +374,19 @@ html, body{
 	right: 70px;
 	font-size: 1.2em;
 	line-height: 30px;
+}
+/*here started About.html*/
+.bgUrl3{
+	background: url(../images/about-us.jpg);
+	background-size: cover;
+}
+.secondInnerTwo h1{
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #135d9c;
+	margin: 0px;
+	padding-top: 10px;
+}
+.secondInnerTwo{
+float: left;
 }
